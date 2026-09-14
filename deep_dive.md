@@ -84,4 +84,4 @@ This approach keeps the database smaller and makes file storage more scalable.
 
 ## 6. Caching – Redis
 
-Jobs are expected to be one of the most frequen
+Jobs are expected to be one of the most frequent operations.Redis is implemented to cache job data. This significantly reduces the load on the primary SQL database and minimizes latency.
