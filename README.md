@@ -72,8 +72,25 @@ birth date- experience years- CV URL- LinkedIn URL- created at- updated at)
 9-candidate goal(candidate id-goal id-title - descreotion-target date) 
 10-expereience(expereince id-candidate id- company name-job title- description-start date-end date)
 
-### 6. Deep Dives
+## 7. High-Level Architecture
+
+The system is designed using a layered architecture.
+
+The main components include:
+
+- Client
+- Backend API
+- Business Logic
+- Database
+- External Services
+
+The complete high-level architecture is documented in:
+<img width="1280" height="907" alt="image" src="https://github.com/user-attachments/assets/67f94ae5-d34c-409b-8aca-d5aa0fe0555c" />
+
+### 7. Deep Dives
 For detailed architectural decisions, database choices, and scaling strategies, please refer to the [Deep Dives Document](deep_dive.md)
+
+
 
 
 
