@@ -73,7 +73,7 @@ birth date- experience years- CV URL- LinkedIn URL- created at- updated at)
 10-expereience(expereince id-candidate id- company name-job title- description-start date-end date)
 
 ### 6. Deep Dives
-For detailed architectural decisions, database choices, and scaling strategies, please refer to the [Deep Dives Document](deep_dive.md).
+For detailed architectural decisions, database choices, and scaling strategies, please refer to the [Deep Dives Document](deep_dive.md)
 
 
 
