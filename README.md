@@ -53,5 +53,26 @@ The system should satisfy the following non-functional requirements:
 - Reliability
   
   Detailed functional and non-functional requirements are documented in:
+  <img width="945" height="989" alt="requirements" src="https://github.com/user-attachments/assets/61b1d153-c5df-4806-8060-b8ca5b5fc60b" />
+
+  ## 5. Data Model
+
+The main entities in the system include:
+Data model:
+1- user(id-email-password-role-cteated at - updated at- status-last login)
+2-cndidate profile(candidate id- user id-headline-bio-phone-location-
+birth date- experience years- CV URL- LinkedIn URL- created at- updated at)
+3- company(id-name-descreption-industry-location-website URL-status-created at -upadted at)
+4-job(job id-company id-title-description-location-min salary-max salary-
+        expereience level-status-employment type-work mode)
+5-skills(id-name-category-description)
+6-job skills(job id-skill id -required-proficiency)
+7-application(id-candidate id-job id-status-letter-cv URL-applied at)
+8-candidate skills(candidate id-skill id-proficiency level-expereience years)
+9-candidate goal(candidate id-goal id-title - descreotion-target date) 
+10-expereience(expereince id-candidate id- company name-job title- description-start date-end date)
+
+
+
 
 
